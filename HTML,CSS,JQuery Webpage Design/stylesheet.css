@@ -1,0 +1,417 @@
+/*  This CSS file is not completely finished or optimized and has a couple of used or ineffiecent styles */
+
+body {
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+h1 {
+    background: black;
+    color:white;
+    text-indent: 5px;
+    text-transform: uppercase;
+    margin: 0px;
+    padding: 10px;
+    font-size: 27px;
+}
+
+h2 {
+    color:rgb(86, 86, 196);
+    opacity: 0.5;
+}
+
+button {
+    border-radius: 25px;
+    background: gray;
+    border: none;
+    color: black;
+    border-color: black;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+    
+}
+
+/* remove background for a different style */
+header {
+    background: black; 
+    padding: 13px;
+    margin: 0px;
+    
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    text-transform: uppercase;
+    
+}
+
+header .Logo a {
+    background-image: url("images/bulldog.png");
+    background-size: 120px;
+    display: inline-block;
+    border-radius: 5px;
+    width: 120px;
+    height: 108px;
+    text-indent: -100000px;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+}
+
+nav li {
+    margin: auto;
+}
+
+
+section {
+    background: white;
+    color: gray;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+
+section.blue{
+    background: rgb(86, 88, 197);
+    margin: 8px 0px;
+}
+
+section.red{
+    background: rgb(211, 59, 59);
+    margin: 9px 0px;
+    
+}
+    
+div {
+    background: rgb(211, 59, 59);
+    padding: 5px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 5px;
+    color: lightgrey;
+}
+
+div.A {
+    background: rgb(211, 59, 59);
+    padding: 5px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    color: black;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+div.B {
+    background: rgb(86, 88, 197);
+    padding: 5px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    color: white;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+div.C {
+    background: rgb(211, 59, 59);
+    padding: 5px;
+    margin: auto;
+    margin-top: 10px;
+    font-size: 21px;
+    border-radius: 5px;
+    color: black;
+    font-weight: bold;
+}
+
+#main {
+    text-align: center;
+}
+
+
+
+#contact {
+    background: rgb(211, 59, 59);
+    padding: 5px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 5px;
+    color: lightgray;
+    font-weight: bold;
+    font-size: 23px;
+    
+}
+
+strong.maps {
+    background: rgb(211, 59, 59);
+    padding: 2px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    border-radius: 5px;
+    color: rgb(192, 178, 178);
+    font-size: 20px;
+}
+
+#missionStatement {
+    background: rgb(211, 59, 59);
+    padding: 5px;
+    padding-right: 7px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 5px;
+    color: white;
+    font-size: 32px;
+    
+}
+
+#Statement {
+    background: white;
+    padding: 0 0 40px 0;
+    margin: auto;
+    border-radius: 5px;
+    color: black;
+    font-size: 20px;
+    margin-bottom: 0px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+
+ul {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    
+}
+
+li {
+    display:inline-block;
+    background-color: black;
+    border-radius: 5px;
+    padding: 2px 10px 1px 10px;
+    margin: auto;
+    text-align: center;
+    
+}
+
+button {
+    background-color: rgb(86, 88, 197);
+    margin-bottom: 30px;
+    font-size: 21px;
+    font-weight: bold;
+    border-color: black;
+    border-radius: 30px;
+}
+
+button:hover {
+    background-color: rgb(74, 76, 201);
+    margin-bottom: 30px;
+    font-size: 21px;
+    font-weight: bold;
+    border-color: black;
+    border-radius: 30px;
+    transform: scale(1.05);
+    color: black;
+}
+
+
+#Note {
+    background: rgb(92, 88, 88);
+    color: white;
+    Margin: 1px;
+    margin-top: 1px;
+    Padding: 1px;
+    text-align: center;
+}
+
+#Notes {
+    background: rgb(92, 88, 88);
+    color: white;
+    Margin: 1px;
+    margin-top: 5px;
+    Padding: 1px;
+    text-align: center;
+}
+
+input[type=text] {
+    border: 5px solid rgb(211, 59, 59);
+    border-radius: 4px;
+    margin: 10px;
+    padding: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 19px;
+}
+
+#UserInput {
+    background: white;
+    padding: 0px;
+    margin: 0px;
+    border-radius: 5px;
+    color: black;
+    text-align: center;
+}
+
+#Response {
+    background: white;
+    padding: 5px;
+    margin: auto;
+    border-radius: 6px;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+footer {
+    background: rgb(211, 59, 59);
+    padding: 10px 20px;
+}
+
+
+a:hover {
+    text-decoration: none;
+    color:rgb(79, 79, 231);
+    text-transform: uppercase;
+    transform: scale(1.07);
+}
+
+li:hover {
+    
+    background: rgb(126, 16, 16);
+    display:inline-block;
+    border-radius: 5px;
+    padding: 1px 10px 1px 10px;
+    margin: auto;
+    transform: scale(1.07);
+}
+
+li.Logo:hover {
+    
+    display:inline-block;
+    background-color: black;
+    border-radius: 5px;
+    padding: 2px 10px 1px 10px;
+    margin: auto;
+    transform: scale(1.07);
+
+}
+
+li.Map:hover {
+    display:inline-block;
+    background-color: black;
+    border-radius: 5px;
+    padding: 2px 10px 1px 10px;
+    margin: auto;
+    transform: scale(1.07);
+}
+
+#B1 {
+    background: black;
+    background-image: url("images/B11.png");
+    background-size: 120px;
+    display: inline-block;
+    border-radius: 5px;
+    width: 129px;
+    height: 128px;
+    text-indent: -100000px;
+    margin: 0px;
+}
+
+#B2 {
+    background: black;
+    background-image: url("images/B22.png");
+    background-size: 120px;
+    display: inline-block;
+    border-radius: 5px;
+    width: 165px;
+    height: 125px;
+    text-indent: -100000px;
+    margin: 0px;
+    
+}
+
+#B3 {
+    background: black;
+    background-image: url("images/B33.png");
+    background-size: 120px;
+    display: inline-block;
+    border-radius: 5px;
+    width: 135px;
+    height: 120px;
+    text-indent: -100000px;
+    margin: 0px;
+    
+}
+
+li:first-child {
+    margin-left: 22.5%;
+}
+
+li:last-child {
+    margin-right: 20%;
+}
+
+
+li:first-child:hover {
+    margin-left: 22.5%;
+    
+}
+
+li:last-child:hover {
+    margin-right: 20%;
+}
+
+#UserInput1 {
+        background: black;
+        padding: 5px;
+        margin: auto;
+        text-align: center;
+        border-radius: 0px;
+        color: black;
+}
+
+#Welcome {
+        background: rgb(86, 88, 197);
+        padding: 5px;
+        margin: auto;
+        text-align: center;
+        border-radius: 0px;
+        color: black;
+ 
+}
+
+#QuestionText {
+    background: black;
+    border-radius: 0px;
+    margin: auto;
+    padding: 40px;
+    margin-bottom: 0px;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+
+#Response1 {
+    background: black;
+    border-radius: 0px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    color: white;
+    font-size: 27px;
+    font-weight: bold;
+}
